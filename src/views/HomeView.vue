@@ -1232,6 +1232,7 @@ export default {
       if (elem) {
         const topOfElement = elem[0].offsetTop;
         window.scrollTo({ top: topOfElement, behavior: 'smooth' });
+        this.isMenu = false;
       }
     },
 

@@ -180,6 +180,8 @@ h4,
   margin: 0;
   list-style: decimal;
   text-align: left;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   li {
     padding: 4px 0;
@@ -192,8 +194,8 @@ h4,
 
     &:first-child {
       position: absolute;
-      top: -10px;
-      right: -10px;
+      top: 0;
+      right: 0;
       padding: 0;
       margin: 0;
       width: 24px;
