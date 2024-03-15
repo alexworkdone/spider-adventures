@@ -33,7 +33,7 @@
           ></p>
 
           <template v-else>
-            <div :key="index" v-if="!post.img" class="info">
+            <div v-if="!post.img" :key="index" class="info">
               <table>
                 <tr>
                   <td>Опис малюнка:</td>
@@ -49,7 +49,7 @@
                 </tr>
               </table>
             </div>
-            <img :key="index" v-else :src="post.img" :alt="post.alt" />
+            <img v-else :key="index" :src="post.img" :alt="post.alt" />
           </template>
         </template>
       </div>
